@@ -1,0 +1,103 @@
+body{
+    background: url(images/background.jpg) no-repeat center center fixed;
+    background-size: cover;
+    font-family: sans-serif;
+}
+
+header{
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+.head{
+    float: left;
+    color: #fff;
+    font-family: cursive;
+}
+
+nav{
+    float: right;
+}
+
+li{
+    display: inline;
+    padding: 1rem;
+}
+li a{
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.act{
+    color: gold;
+}
+
+.container{
+    width: 70%;
+    margin: auto;
+    overflow: hidden;
+    margin-top: 1%;
+}
+showcase h1{
+    color: #fff;
+    font-family: cursive;
+    text-align: center;
+}
+
+showcase h3{
+    color: #fff;
+    text-align: center;
+    letter-spacing: 2px;
+}
+
+.category{
+    color: #fff;
+    margin-top: 5%;
+    display: flex;
+    text-align: center;
+    font-family: cursive;
+}
+
+img{
+    width: 70%;
+    border-radius: 50%;
+}
+
+.Thai{
+    padding-inline-start: 1rem;
+}
+
+.snacks{
+    box-sizing: border-box;
+    padding-inline-start: 1rem;
+    margin: auto;
+}
+
+.Thai,.snacks{
+    padding-left: 1rem;
+}
+
+h4{
+    font-size: 1.5rem;
+    margin: 3%;
+}
+
+.btn{
+    background-color: gold;
+    padding: 1rem;
+    border: none;
+    border-radius: 8px;
+    margin-left: 45%;
+    justify-content: center;
+}
+
+
+
+
+
+
+
+
+
