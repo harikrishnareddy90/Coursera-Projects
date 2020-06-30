@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+div{
+    min-height: 100vh;
+    color:#f80000;
+    font-size: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+} 
+.big-image{
+    background: url(images/big.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: ;
+}
+.small-image{
+    border: 2px solid white ;
+    background: url(images/small.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+.image{
+    background: url(images/image.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
