@@ -17,7 +17,7 @@ div{
     background: url(images/big.jpg);
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: ;
+    background-position:center ;
 }
 .small-image{
     border: 2px solid white ;
