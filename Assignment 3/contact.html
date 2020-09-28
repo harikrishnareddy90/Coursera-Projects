@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact</title>
+    <link rel="stylesheet" href="style.css">
+    
+    
+    <style>
+        @import url("https://fonts.googleapis.com/css2?family=Poppins:100;200;300;400;500;600;700;80ffffff0;900");
+
+section{
+    margin:0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: #12094465;
+    font-family: 'Poppins', sans-serif;
+}
+
+h1{
+    text-align: center;
+    text-decoration: underline;
+}
+
+.box{
+    position: relative;
+    width:700px;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: right;
+    background: #060c21;
+}
+.box:before{
+    content: "";
+    position: absolute;
+    top: -2px;
+    left: -2px;
+    right: -2px;
+    bottom:-2px;
+    background:#fff;
+    transform: skew(1deg,1deg);
+    z-index: -1;
+}
+.box:after{
+    content: "";
+    position: absolute;
+    top: -2px;
+    left: -2px;
+    right: -2px;
+    bottom:-2px;
+    background:#fff;
+    filter: blur(40px);
+    z-index: -2;
+}
+.box:before,.box:after{
+    background:linear-gradient(315deg,#e91e63,#060c21,#0228ff);
+}
+
+.content{
+    padding:20px;
+    box-sizing: border-box;
+    color:#fff;
+}
+button:hover{
+    color: rgb(228, 221, 221);
+    background-color: black;
+}
+
+    </style>
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <div class="row">
+          <div class="brand-name">
+            <a href="" class="logo">Coffee House</a>
+          </div>
+          <div class="nav-bar">
+            <ul>
+              <li><a href="index.html" class="active">Home</a></li>
+              <li><a href="about.html">About</a></li>
+              <li><a href="branches.html">Branches</a></li>
+              <li><a href="contact.html">Contact</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </header>
+    
+    <section>
+        <div class="box">
+        <div class="content">
+            <h1>Contact Us</h1>
+            <br>
+            <form action="">
+                <label for="name">Name :</label>
+                <input type="text" placeholder="Your name">
+                <br>
+                <br>
+                <label for="Email">Email :</label>
+                <input type="email" placeholder="Your email">
+                <br>
+                <br>
+                <h3>Description</h3>
+                <textarea name="Description" id="" cols="30" rows="10" placeholder="Message"></textarea>
+            </form>
+            <br>
+            <button>Submit</button>
+    </section>
+</body>
+</html>

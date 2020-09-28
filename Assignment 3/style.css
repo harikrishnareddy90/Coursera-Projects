@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+.container{
+    max-width: 1140px ;
+    margin: auto;
+}
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+header{
+    left: 0px;
+    right: 0px;
+    border-bottom: 1px solid #43443460;
+    padding: 0px 15px;
+    z-index: 10;
+    background-color: rgb(3, 3, 59);
+    position: sticky;
+    top: 0;
+}
+
+header .row{
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .brand-name a{
+    text-decoration: none;
+    font-size: 22px;
+    font-weight: 600;
+    color: gold;
+    text-transform: uppercase;
+    position: relative;
+    font-family: "montserrat" , sans-serif;
+}
+
+header .nav-bar ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+header .nav-bar ul li{
+    display: inline-block;
+    margin-left: 35px;
+}
+
+header .nav-bar ul li a{
+    font-size: 15px;
+    text-decoration: none;
+    line-height: 72px;
+    color: #ffffff;
+    display: block;
+    font-weight: 600;
+    position: relative;
+}
+
+header .nav-bar ul li a::before{
+    content: '';
+    height: 3px;
+    background-color: #ffffff;
+    width: 0%;
+    position: absolute;
+    right: 0px;
+    bottom: -1px;
+    transition: all .5s ease;
+}
+
+header .nav-bar ul li a:hover::before{
+    width: 100%;
+    left: 0;
+}
+
+header .nav-bar ul li a.active::before{
+    width: 100%;
+    left: 0;
+}
+
+.home{
+    min-height: 100vh;
+    background: url(assets/coffee-cup-smoke-sack-wallpaper-preview.jpg) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    
+    padding: 15px;
+}
+
+.home .row{
+    min-height: 100vh;
+}
+
+.home .home-content{
+    flex: 0 0 100%;
+    max-width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+
+}
+.home .home-content .block{
+    flex: 0 0 75%;
+    max-width: 75%;
+    padding-left: 730px;
+    margin-left: 100px;
+    margin-top: 50px;
+}
+
+.home .home-content .block h6{
+    color: #ffffff;
+    font-size: 68px;
+    font-weight: bold;
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+}
+.sip{
+    color: rgb(255, 22, 14);
+}
+
+.f-products  {
+    background: #EC6F66;  
+    background: -webkit-linear-gradient(to right, #F3A183, #EC6F66); 
+    background: linear-gradient(to right, #F3A183, #EC6F66);
+}
+
+h2{
+    margin: 10px;
+    text-align: center;
+    font-size: 65px;
+    margin-top: 0;
+    color: rgb(9, 115, 185);
+}
+
+
+.image-column{
+    float: left;
+    width: 25%;
+    padding: 10px;
+    margin-left: 125px;
+    margin-top: 20px;
+}
+
+
