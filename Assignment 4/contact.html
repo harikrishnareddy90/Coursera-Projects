@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css" integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc" crossorigin="anonymous"> 
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+        body{
+            margin: 0;
+            padding: 0;
+            text-align: center;
+            background: url(images/anders-jilden-medium-5d01610e.jpg);
+            font-family: sans-serif;
+        }
+        .contact-title{
+            margin-top: 100px;
+            color: #fff;
+            text-transform: uppercase;
+            transition: all 0.4s ease;
+        }
+        .contact-title h1{
+            font-size: 32px;
+            line-height: 10px;
+        }
+        .contact-title h2{
+            font-size: 16px;
+            
+        }
+        form{
+            margin-top: 50px;
+            transition: all 4s ease-in-out;
+        }
+        .form-control{
+            width: 600px;
+            background: transparent;
+            border: none;
+            outline: none;
+            border-bottom: 1px solid rgb(250, 92, 1);
+            color:  #fff;
+            font-size: 18px;
+            margin-bottom: 16px;
+        }
+        ::placeholder{
+            color: white;
+        }
+        input{
+            height: 45px;
+        }
+        form.submit{
+            background: #ff5722;
+            border-color: transparent;
+            color: black;
+            font-size: 20px;
+            font-weight: bold;
+            letter-spacing: 2px;
+            height: 50px;
+            margin-top: 20px;
+        }
+        form.submit:hover{
+            background-color: #f44336;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <!-- <div class="title">Eat Fresh</div> -->
+    <div class="contact-title">
+        <h1>Contact Us</h1>
+        <h2>We are always ready to serve you!!!</h2>
+    </div>
+    <div class="contact-form">
+        <form action="" id="contact-form" method="post">
+            <input type="text" name="name" class="form-control" placeholder="Your Name" required="required";>
+            <br>
+            <input type="text" name="email" class="form-control" placeholder="Your email" required="required";>
+            <br>
+            <textarea name="message" class="form-control"  rows="4" placeholder="Message" required="required";></textarea>
+            <br>
+            <input type="submit" class="form-control submit" values="SEND MESSAGE">
+        </form>
+    </div>
+    
+</body>
+</html>
