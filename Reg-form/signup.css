@@ -1,0 +1,53 @@
+body{
+    font-family: Tahoma, 'Geneva', sans-serif;
+    background: url(images/50-Beautiful-and-Minimalist-Presentation-Backgrounds-011.jpg);
+    background-size: cover;
+}
+.signup{
+    background: rgba(44, 62, 80, 0.7);
+    padding: 40px;
+    width: 250px;
+    margin: auto;
+    margin-top: 180px;
+    height: 450px;
+    margin-bottom: auto;
+}
+form{
+    width: 240px;
+    text-align: center;
+}
+input{
+    width: 240px;
+    text-align: center;
+    background: transparent;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid rgb(163, 250, 1);
+    color: #fff;
+    font-size: 18px;
+    margin-bottom: 16px;
+    transition: border 0.5s;
+}
+input[type=button]{
+    border:none;
+    width: 190px;
+    background: white;
+    color: #000;
+    font-size: 16px;
+    line-height: 25px;
+    padding: 10px 0;
+    border-radius: 15px;
+    cursor: pointer;
+}
+input[type=button]:hover{
+    color: #fff;
+    background-color: black;
+}
+
+h2{
+    color: white;
+}
+::placeholder{
+    color: aliceblue;
+    opacity: 0.8;
+}

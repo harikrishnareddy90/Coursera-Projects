@@ -1,0 +1,74 @@
+body{
+    font-family: Tahoma, 'Geneva', sans-serif ;
+    color: white;
+    background: url(images/50-Beautiful-and-Minimalist-Presentation-Backgrounds-011.jpg);
+    background-size: cover; 
+}
+.signin{
+    background: rgba(44, 62, 80, 0.7);
+    padding: 40px;
+    width: 250px;
+    margin: auto;
+    margin-top: 250px;
+    height: 400px;
+}
+form{
+    width: 240px;
+    text-align: center; 
+}
+input[type=text]{
+    width: 240px;
+    border: none;
+    outline: none;
+    text-align: center;
+    background: transparent;
+    border-bottom: 1px solid rgb(163, 250, 1);
+    color: #fff;
+    font-size: 18px;
+    margin-bottom: 16px;
+    transition: border 0.5s;   
+}
+input[type=text]::placeholder{
+    color: tan;
+}
+input[type=password]{
+    width: 240px;
+    text-align: center;
+    background: transparent;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid rgb(163, 250, 1);
+    color: #fff;
+    font-size: 18px;
+    margin-bottom: 16px;
+    transition: border 0.5s;
+}
+input[type=password]::placeholder{
+    color: tan;
+}
+input[type=button]{
+    border:none;
+    outline: none;
+    width: 190px;
+    background: white;
+    color: #000;
+    font-size: 16px;
+    line-height: 25px;
+    padding: 10px 0;
+    border-radius: 25px;
+    cursor: pointer;
+}
+input[type=button]:hover{
+    color: #fff;
+    background-color: black;
+}
+h2{
+    color: white;
+}
+a{
+    color: rgb(163, 250, 1);
+    text-decoration: none;
+}
+a:hover{
+    color: skyblue;
+}

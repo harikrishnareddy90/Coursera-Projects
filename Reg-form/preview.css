@@ -1,0 +1,32 @@
+body{
+    font-family: Tahoma, 'Geneva', sans-serif;
+    background: url(images/blue-honeycomb-abstract-background-wallpaper-and-texture-concept-minimal-theme-vector.jpg);
+    background-size: cover;
+}
+.prev{
+    background: rgba(80, 46, 85, 0.7);
+    padding: 40px;
+    width: 250px;
+    margin: auto;
+    margin-top: 250px;
+    height: 230px;
+}
+h2{
+    color: pink;
+}
+input[type=button]{
+    border:none;
+    outline: none;
+    width: 250px;
+    background: white;
+    color: #000;
+    font-size: 16px;
+    line-height: 25px;
+    padding: 10px 0;
+    border-radius: 25px;
+    cursor: pointer;
+}
+input[type=button]:hover{
+    color: #fff;
+    background-color: black;
+}

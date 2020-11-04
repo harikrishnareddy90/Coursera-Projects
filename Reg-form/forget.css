@@ -1,0 +1,57 @@
+body{
+    font-family: Tahoma, 'Geneva', sans-serif;
+    color: #fff;
+    background: url(images/50-Beautiful-and-Minimalist-Presentation-Backgrounds-011.jpg);
+    background-size: cover;
+}
+a{
+    color: yellow;
+    text-decoration: blink;
+    font-family: Tahoma, 'Geneva', sans-serif;
+    margin-left: 35px;
+}
+.forget{
+    background: rgba(44, 62, 80, 0.7);
+    padding: 40px;
+    width: 240px;
+    height: 340px;
+    margin-left: 180px;
+    margin: 0 auto;
+    margin-top: 280px;
+} 
+h2  {
+    margin-top: 28px;
+    margin-left: 10px;
+}
+input[type=text]{
+    width: 240px;
+    border: none;
+    outline: none;
+    text-align: center;
+    background: transparent;
+    border-bottom: 1px solid rgb(163, 250, 1);
+    color: #fff;
+    font-size: 18px;
+    margin-bottom: 16px;
+    transition: border 0.5s;   
+}
+input[type=text]::placeholder{
+    color: tan;
+}
+input[type=button]{
+    border:none;
+    outline: none;
+    width: 190px;
+    background: white;
+    color: #000;
+    font-size: 16px;
+    line-height: 25px;
+    padding: 10px 0;
+    border-radius: 25px;
+    margin-left: 25px;
+    cursor: pointer;
+}
+input[type=button]:hover{
+    color: #fff;
+    background-color: black;
+}

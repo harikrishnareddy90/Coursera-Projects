@@ -1,0 +1,25 @@
+body{
+    font-family: Tahoma, 'Geneva', sans-serif;
+    background: url(images/50-Beautiful-and-Minimalist-Presentation-Backgrounds-011.jpg);
+    background-size: cover;
+}
+a{
+    color: yellow;
+    font-family: Tahoma, 'Geneva', sans-serif;
+    margin-left: 30px;
+}
+a:hover{
+    color: rgb(163, 250, 1);
+}
+.cong{
+    background: rgba(44, 62, 80, 0.7);
+    padding: 40px;
+    width: 250px;
+    margin: auto;
+    margin-top: 250px;
+    height: 230px;
+}
+h2{
+    margin-top: 50px;
+    margin-left: 10px;
+}
