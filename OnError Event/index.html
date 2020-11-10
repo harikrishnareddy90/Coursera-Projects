@@ -1,1 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OnError Event</title>
+    <link rel="stylesheet" href="onerror.css">
+</head>
+<body>
+    <img src="image.gif" onerror="myFunction()">
 
+<p>A function is triggered if an error occurs when loading the image. The function shows an alert box with a text.
+    <br>
+    <br>
+    If you want to see the <span style="color: gold;">Error</span> text again, just refresh the page...
+</p>
+
+<script>
+function myFunction() {
+  alert('Error:The image could not be loaded.');
+}
+</script>
+</body>
+</html>
