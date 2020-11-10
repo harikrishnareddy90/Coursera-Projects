@@ -1,1 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OnCopy Event</title>
+    <link rel="stylesheet" href="oncopy.css">
+</head>
+<body>
+    <input type="text" oncopy="myFunction()" value="Try to copy this text">
+    <br>
+    <br>
 
+<p id="demo"></p>
+
+<script>
+function myFunction() {
+  document.getElementById("demo").innerHTML = "You copied text!"
+}
+</script>
+<h3>Try to copy the text in the button and press <span style="color: gold;">CTRL+C</span>, then u can see that its copied!!!
+    <br> and refresh to view it again</h3>
+</body>
+</html>
