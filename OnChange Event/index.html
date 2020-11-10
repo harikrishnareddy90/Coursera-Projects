@@ -1,1 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Onchange Event</title>
+    <link rel="stylesheet" href="onblur.css">
+</head>
+<body>
+    <h3>Select a new car from the list.</h3>
 
+<select id="mySelect" onchange="myFunction()">
+  <option value="Audi">&nbsp;&nbsp;Audi</option>
+  <option value="BMW">&nbsp;&nbsp;BMW</option>
+  <option value="Mercedes">&nbsp;&nbsp;Mercedes</option>
+  <option value="Volvo">&nbsp;&nbsp;Volvo</option>
+</select>
+
+<p>When you select a new car, a function is triggered which outputs the value of the selected car.</p>
+
+<p id="demo"></p>
+
+<script>
+function myFunction() {
+  var x = document.getElementById("mySelect").value;
+  document.getElementById("demo").innerHTML = "You selected: " + x;
+}
+</script>
+</body>
+</html>
