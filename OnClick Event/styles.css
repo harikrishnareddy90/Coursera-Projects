@@ -1,0 +1,40 @@
+body{
+    font-family:  Tahoma, 'Geneva', sans-serif;
+    color: white;
+    background: url(images/9e638ba7ecbfa252b776728b683ffb3c02c1572f02d0fa6ea85980b20f7af547.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.event{
+    margin-top: 200px;
+    margin-left: 300px;
+}
+h2{
+    margin-left: 750px;
+    font-family: cursive;
+    font-size: 50px;
+    margin-top: 500px;
+    color: rgb(3, 3, 59);
+}
+button{
+    border:none;
+    outline: none;
+    width: 190px;
+    background: white;
+    color: #000;
+    font-size: 16px;
+    line-height: 25px;
+    padding: 10px 0;
+    border-radius: 15px;
+    cursor: pointer;
+    margin-left: 820px;
+}
+button:hover{
+    color: rgb(226, 205, 13);
+    background: black;
+}
+#demo{
+    margin-left: 720px;
+    margin-top: 50px;
+    color: #f7015f;
+}
