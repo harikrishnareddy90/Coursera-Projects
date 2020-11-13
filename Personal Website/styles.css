@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    background: url(images/bg.jpeg);
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+.container{
+    max-width: 1140px ;
+    margin: auto;
+}
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+header{
+    
+    left: 0px;
+    right: 0px;
+    border-bottom: 1px solid #5d5e4c60;
+    background-color:rgb(2, 2, 59) ;
+    padding: 0px 15px;
+    z-index: 10;
+    position: sticky;
+    top: 0;
+}
+
+header .row{
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .brand-name a{
+    text-decoration: none;
+    font-size: 22px;
+    font-weight: 600;
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+    position: relative;
+}
+header .nav-bar ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+header .nav-bar ul li{
+    display: inline-block;
+    margin-left: 35px;
+}
+
+header .nav-bar ul li a{
+    font-size: 15px;
+    text-decoration: none;
+    line-height: 72px;
+    color: #f80404;
+    display: block;
+    font-weight: 600;
+    position: relative;
+}
+.label{
+    text-align: center;
+}
+label{
+    font-size: 20px;
+    font-weight: 400;
+    color: rgb(231, 12, 12);
+}
+input[type=text]{
+    border: none;
+    outline: none;
+    width: 250px;
+    background: white;
+    color: #000;
+    font-size: 16px;
+    line-height: 25px;
+    padding: 8px 0;
+    border-radius: 25px;
+    cursor: pointer;
+}
+section{
+    margin: 0;
+    padding: 0;
+}
+
+section .box{
+    width: 450px;
+    background: rgba(0, 0, 0, 0.4);
+    padding: 40px;
+    text-align: center;
+    margin: auto;
+    margin-top: 100px;
+    color: white;
+}
+.box img{
+    border-radius: 50%;
+    width: 200px;
+}
+.box h1{
+    font-size: 20px;
+    letter-spacing: 2px;
+    font-weight: 400;
+}
+.box h5{
+    font-size: 20px;
+    letter-spacing: 1px;
+    font-weight: 400;
+}
+
+
+
