@@ -1220,7 +1220,7 @@ body.dark .shadow-dark{
 
 @media (max-width:1199px){
     .section .container{
-        padding-top: 0px; 
+        padding-top: 70px; 
         /* or padding-top : 58px */
     }
     .aside .nav-toggler{
