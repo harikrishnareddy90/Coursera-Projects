@@ -1013,7 +1013,7 @@ input, textarea, select{
 }
 
 .contact .contact-form .form-item textarea.form-control{
-    height: 140px;
+    height: 100px;
 }
 
 .contact .contact-form{
